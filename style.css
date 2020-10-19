@@ -41,9 +41,8 @@ article img {
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: table;
+    margin: 0 auto;
     list-style-type: none;
     line-height: 2rem;
     font-size: 0.8rem;
