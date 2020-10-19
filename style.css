@@ -11,6 +11,8 @@ main {
     width: 800px;
     height: 600px;
     margin: 0 auto;
+    background-color: #BEDDF9;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -19,17 +21,51 @@ main {
 
 article {
     padding: 1rem;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 1rem 1rem;
 }
 
-h2,
-article img {
+h2 {
     text-align: center;
+    color: #0080FF;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+
+article img {
+    display: block;
+    margin: 0 auto;
+    width: 6rem;
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     list-style-type: none;
+    line-height: 2rem;
+    font-size: 0.8rem;
 }
 
-/* article {
-    flex-basis: 33.3%;
-} */
+.fa-check {
+    color: #0080ff;
+    margin-right: 0.5rem;
+    font-size: 0.7rem;
+}
+.fa-times {
+    color: red;
+    margin-right: 0.5rem;
+}
+
+button {
+    background-color: #0080ff;
+    color: white;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    width: 10rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
