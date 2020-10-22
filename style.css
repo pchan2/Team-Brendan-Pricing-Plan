@@ -12,6 +12,7 @@ main {
     height: 600px;
     margin: 0 auto;
     background-color: #BEDDF9;
+    background-image: url(Background-image1copy.jpg);
     font-family: 'Montserrat', sans-serif;
 }
 
