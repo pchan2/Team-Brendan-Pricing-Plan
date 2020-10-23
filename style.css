@@ -8,8 +8,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 800px;
-    height: 600px;
+    max-width: 800px;
+    max-height: auto;
+    padding: 50px 20px;
     margin: 0 auto;
     background-color: #BEDDF9;
     background-image: url(Background-image1copy.jpg);
@@ -17,7 +18,13 @@ main {
 }
 
 .container {
+    width:auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 article {
