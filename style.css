@@ -21,10 +21,9 @@ main {
 }
 
 article {
-    padding: 1rem;
     background-color: white;
     margin: 0.5rem;
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
 
 h2 {
@@ -54,6 +53,7 @@ ul {
     margin-right: 0.5rem;
     font-size: 0.7rem;
 }
+
 .fa-times {
     color: red;
     margin-right: 0.5rem;
@@ -80,12 +80,12 @@ ul {
 }
 
 .monthly {
-font-size: .6rem;
-margin-left: 4.5rem;
-line-height: 0;
-position: relative;
-top: -.5rem;
-font-weight: 700;
+    font-size: .6rem;
+    margin-left: 4.5rem;
+    line-height: 0;
+    position: relative;
+    top: -.5rem;
+    font-weight: 700;
 }
 
 button {
