@@ -37,7 +37,7 @@ article {
 
 h2 {
     text-align: center;
-    color: #0080FF;
+    color: #0057AD;
     font-size: 1rem;
     font-weight: 550;
 }
@@ -58,7 +58,7 @@ ul {
 }
 
 .fa-check {
-    color: #0080ff;
+    color: #0057AD;
     margin-right: 0.5rem;
     font-size: 0.7rem;
 }
@@ -70,7 +70,7 @@ ul {
 
 
 .price {
-    color: #0080ff;
+    color: #0057AD;
     font-weight: 900;
     display: flex;
     margin: .5rem 3rem 0 3rem;
@@ -98,7 +98,7 @@ ul {
 }
 
 button {
-    background-color: #0080ff;
+    background-color: #0057AD;
     color: white;
     margin: 1rem 0;
     padding: 0.5rem 1rem;
