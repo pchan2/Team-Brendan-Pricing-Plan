@@ -6,30 +6,38 @@
 
 main {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    width: 800px;
-    height: 600px;
+    max-width: 800px;
+    max-height: auto;
+    padding: 50px 20px;
     margin: 0 auto;
+    margin-top: 3rem;
     background-color: #BEDDF9;
     background-image: url(Background-image1copy.jpg);
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
+    width:auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center; 
 }
 
 article {
-    padding: 1rem;
     background-color: white;
     margin: 0.5rem;
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
 
 h2 {
     text-align: center;
-    color: #0080FF;
+    color: #0057AD;
     font-size: 1rem;
     font-weight: 550;
 }
@@ -50,10 +58,11 @@ ul {
 }
 
 .fa-check {
-    color: #0080ff;
+    color: #0057AD;
     margin-right: 0.5rem;
     font-size: 0.7rem;
 }
+
 .fa-times {
     color: red;
     margin-right: 0.5rem;
@@ -61,7 +70,7 @@ ul {
 
 
 .price {
-    color: #0080ff;
+    color: #0057AD;
     font-weight: 900;
     display: flex;
     margin: .5rem 3rem 0 3rem;
@@ -80,16 +89,16 @@ ul {
 }
 
 .monthly {
-font-size: .6rem;
-margin-left: 4.5rem;
-line-height: 0;
-position: relative;
-top: -.5rem;
-font-weight: 700;
+    font-size: .6rem;
+    margin-left: 4.8rem;
+    line-height: 0;
+    position: relative;
+    top: -.5rem;
+    font-weight: 700;
 }
 
 button {
-    background-color: #0080ff;
+    background-color: #0057AD;
     color: white;
     margin: 1rem 0;
     padding: 0.5rem 1rem;
