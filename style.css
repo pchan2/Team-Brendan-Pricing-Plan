@@ -9,7 +9,7 @@ main {
     /* align-items: center; */
     justify-content: center;
     max-width: 800px;
-    max-height: auto;
+    max-height: 600px;
     padding: 50px 20px;
     margin: 3rem auto 0;
     background: url(Background-image1copy.jpg) #BEDDF9;
@@ -37,7 +37,7 @@ h2 {
     text-align: center;
     color: #0057AD;
     font-size: 1rem;
-    font-weight: 550;
+    font-weight: 600;
 }
 
 
