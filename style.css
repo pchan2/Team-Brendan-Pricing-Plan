@@ -11,8 +11,7 @@ main {
     max-width: 800px;
     max-height: auto;
     padding: 50px 20px;
-    margin: 0 auto;
-    margin-top: 3rem;
+    margin: 3rem auto 0;
     background: url(Background-image1copy.jpg) #BEDDF9;
     font-family: 'Montserrat', sans-serif;
 }
