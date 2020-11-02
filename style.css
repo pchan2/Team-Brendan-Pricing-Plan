@@ -13,8 +13,7 @@ main {
     padding: 50px 20px;
     margin: 0 auto;
     margin-top: 3rem;
-    background-color: #BEDDF9;
-    background-image: url(Background-image1copy.jpg);
+    background: url(Background-image1copy.jpg) #BEDDF9;
     font-family: 'Montserrat', sans-serif;
 }
 
